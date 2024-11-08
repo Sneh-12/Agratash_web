@@ -1,0 +1,205 @@
+*
+{
+    padding:0px;
+    margin:0px;
+}
+.sticky-top
+{
+   
+/* background-color:white !important; */
+background-color: black;
+}
+.navbar
+{
+    background-color:white !important;
+    border-top:6px #00327C solid;
+    border-bottom:6px  #00327C solid;
+}
+.btn .btn-primary .btn-sm{
+    background-color:#00327C !important;
+    margin-right:60px;
+}
+.nav-item .nav-link{
+    border-bottom: 3px solid #fff;
+    transition: .9s;
+}
+.nav-item .nav-link:hover
+{
+    border-bottom: 3px solid #0d1475;
+}
+.nav-item 
+{
+    margin-left:90px;
+}
+/*.agratash 
+{
+    border-radius: 75px; 
+    border:3px solid  #0d1475;  
+}*/
+.btn .btn-primary .btn-sm:hover
+{
+    color:white;
+    background-color:#00327C;
+}
+.line{
+    height: 3px;
+    width: 60px;
+    background-color: #00327C;
+}
+.About
+{
+    color:#0d1475;
+
+
+}
+.card2{
+    margin-left:160px;
+    width:300px;
+}
+.service1{
+    color:#00327C;
+    text-align:center;
+}
+
+.line1
+{
+    height:5px ;
+    width:100px;
+   background-color:yellow !important;
+   margin-left:520px;
+}
+.Lorem1
+{
+    color:black !important;
+}
+.Lorem2
+{
+    color:black !important;
+}
+.Lorem3
+{
+    color:black !important;
+}
+/* .manu1
+{
+    margin-left:80px;
+} */
+/* .service2 img
+{
+    margin-bottom:1;
+} */
+.Lorem4
+{
+    color:black !important;
+}
+.Lorem5
+{
+    color:black !important;
+}
+.Lorem6
+{
+    color:black !important;
+}
+.service2
+{
+    text-align:center;
+    color:#00327C;
+
+}
+.btn1
+{
+    width:150px;
+    height:40px;
+    background-color: #00327C;
+    color:white;
+  
+}
+.contact
+{
+    background-image: url('Agratsh/Agratash.JPEG');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width:1600px;
+}
+.banner-content
+{
+    color:white;
+    background-image: url('img/contact-us.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+ 
+}
+.sales
+{
+    text-align:center;
+    color:#00327C;
+}
+.Lorem
+{
+    text-align:center;
+}
+.phone 
+{
+    text-align:center;
+    color:blue;
+}
+.global{
+    text-align:center;
+    color:blue;
+}
+telephone1
+{
+    /* text-center:medium; */
+    color:#00327C;
+   /* background-image: url('img/contact1.png');*/
+}
+.sales1
+{
+    text-align:center;
+    color:#00327C;
+}
+.Lorem1{
+    text-align:center;
+}
+.card
+{
+    background-image:url('img/contact1.png');
+   /* margin-top:20px;*/
+}
+.card-body
+{
+    width:400px;
+    /* margin-left:200px; */
+    border:1px solid black;
+   /* margin-top:20px;*/
+    display: flex;
+    align-items: center !important;
+}
+/*.footer
+{
+    background-color:#0d1475;
+    color:white;
+}*/
+/*.btn btn-primary btn-sm
+{
+    background-color:!important  green;
+}*/
+.Email{
+    color:yellow;
+}
+.Footer{
+    background-color:black;
+    color:white;
+}
+.Contact
+{
+    background-image:url('img/Agratash.JPEG');
+    color:white;
+    margin-bottom:50px;
+    background-size:cover;
+    border:2px black solid;
+}
+.line2
+{
+    color:yellow !important;
+}

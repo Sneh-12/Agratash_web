@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    /* background-color: #f4f4f4; */
+    background-color: #000;
+    line-height: 1.6;
+  }
+  
+  /* Navbar container */
+  .navbar {
+    /* background-color: #333; */
+    background-color: black;
+  }
+  
+  .navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10px; 
+  }/* Logo container */
+  .logo {
+    height: 80px; /* Fixed height for the logo container */
+    width: 150px; /* Fixed width for the logo container */
+    /* margin-left: 15px; */
+    overflow: hidden; /* Prevents overflow */
+  }
+  
+  /* Logo image */
+  .logo img {
+    width: 100%; /* Full width scaling */
+    height: 100%; /* Full height scaling */
+    object-fit: contain; /* Keeps the aspect ratio */
+  }
+  /* Navigation links */
+  .navbar-menu {
+    list-style: none;
+    display: flex;
+    /* gap: 10px; */
+  }
+  
+  .nav-item {
+    position: relative;
+  }
+  
+  .nav-link {
+    /* color: #fff; */
+    color: #000;
+    text-decoration: none;
+    padding: 10px 15px;
+  }
+  
+  .nav-link:hover {
+    background-color: #444;
+    border-radius: 5px;
+  }
+  
+  /* Dropdown icon */
+  .dropdown-icon::after {
+    content: ' ▼';
+    font-size: 12px;
+  }
+  
+  /* Dropdown menu */
+  .dropdown-menu {
+    display: none;
+    position: absolute;
+    background-color: #444;
+    top: 100%;
+    left: 0;
+    min-width: 160px;
+    list-style: none;
+    padding: 10px 0;
+    overflow: hidden;
+  }
+  
+  .dropdown-menu a {
+    color: #000;
+    padding: 10px 20px;
+    display: block;
+  }
+  
+  .dropdown-menu a:hover {
+    background-color: #555;
+  }
+  
+  .nav-item:hover .dropdown-menu {
+    display: block;
+  }
+  
+  /* Contact and Worldwide Links */
+  .navbar-text {
+    /* color: #fff; */
+    color: black;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .contact-link,
+  .worldwide-link {
+    color: #0000;
+    text-decoration: none;
+  }
+  
+  .contact-link:hover,
+  .worldwide-link:hover {
+    text-decoration: underline;
+  }
+  
+  /* Hamburger Menu */
+  .hamburger {
+    display: none;
+    cursor: pointer;
+    font-size: 24px;
+    color: #fff;
+  }
+  
+  /* Responsive styles */
+  @media (max-width: 768px) {
+    .navbar-menu {
+        display: none; /* Hidden by default */
+        flex-direction: column;
+        position: absolute;
+        top: 60px; /* Adjust to the height of the navbar */
+        left: 0;
+        width: 100%;
+        /* height: 100%; */
+        background-color: #333;
+        z-index: 1000; /* Ensure it's above other content */
+    }
+  
+    .navbar-menu.show {
+        display: flex; /* Show menu when toggled */
+    }
+  
+    .navbar-menu .dropdown-menu {
+        display: none; /* Hide dropdown content in mobile initially */
+        position: relative; /* Position relative to avoid overlap */
+        width: 100%; /* Ensure it spans full width */
+    }
+  
+    .nav-item:hover .dropdown-menu {
+        display: block; /* Show dropdown on hover in larger screens */
+    }
+  
+    .hamburger {
+        display: flex; /* Show hamburger icon */
+    }
+  
+    /* Additional styles to prevent overlap */
+    .navbar {
+        position: relative; /* Ensure navbar has proper stacking context */
+        z-index: 10; /* Bring navbar above other elements */
+    }
+  
+    .logo {
+        z-index: 20; /* Ensure logo is above the menu */
+    }
+    .search-btn{
+      /* margin-right:20px ; */
+    }
+  }
+  
+  
